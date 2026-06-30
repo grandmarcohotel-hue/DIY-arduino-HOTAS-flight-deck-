@@ -35,7 +35,7 @@ By building this flight deck myself, I am able to:
 The project currently uses the following hardware stack:
  - **Microcontroller:** **Arduino Pro Micro** (ATmega32U4 chip) — Chosen for its native USB HID capabilities to act as a direct plug-and-play joystick.
  - **Inputs:** **贝科姆 (Beckham) Rotation Sensor Modules** (3-pin)(Analog Axes for throttles, pitch, roll, yaw, brakes, etc.) & **贝科姆 (Beckham) Tactile Push Button Modules (KY-004)**
- - **Prototyping:** **Full-Size (830 Tie-Point/Hole) Solderless Breadboard**, **DuPont Jumper wires**, and an improvised cardboard stabilizing bracket for hardware validation.
+ - **Prototyping:** **Full-Size (830 Tie-Point/Hole) Solderless Breadboard**, **DuPont Jumper wires** **(M-M,M-F)**, and an improvised cardboard stabilizing bracket for hardware validation.
 
 ---
 
