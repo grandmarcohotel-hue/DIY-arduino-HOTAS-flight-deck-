@@ -24,7 +24,7 @@ By building this flight deck myself, I am able to:
 
  - [x] **Electronics Proof of Concept:** Wired up the Arduino Pro Micro, rotary potentiometers, and buttons on a temporary breadboard rig.
  - [x] **Prototype Firmware:** Wrote basic test code to verify the Arduino compiles hardware signals and reads pin states correctly.
- - [x] **Hardware Validation:** Completed initial prototype testing to ensure the basic wiring, test code, and sensor inputs work flawlessly. Successfully flight-tested and calibrated axes in **GeoFS** (desktop) and **Infinite Flight** via Map Connect.
+ - [x] **Hardware Validation:** Completed initial prototype testing to ensure the basic wiring, test code, and sensor inputs work flawlessly. Successfully flight-tested and calibrated axes in **GeoFS** and **Infinite Flight** via Map Connectv2. 
  - [ ] **System Design & Blueprinting:** Drafting the comprehensive mechanical concept for how the entire ecosystem (throttle quadrant, joystick mechanism, and rudder pedals) integrates together.
  - [ ] **Dimensions & Layout:** Finalizing physical measurements, clearances, and ergonomic spacing requirements.
  - [ ] **3D Modeling & CAD:** Designing structural housings, pivot linkages, and control surfaces in Onshape for future fabrication.
@@ -33,16 +33,16 @@ By building this flight deck myself, I am able to:
 ##  Hardware & Component List 🕹️
 
 The project currently uses the following hardware stack:
- - **Microcontroller:** Arduino Pro Micro (ATmega32U4 chip) — Chosen for its native USB HID capabilities to act as a direct plug-and-play joystick.
- - **Inputs:** Linear Rotary Potentiometers (Analog Axes for throttles, pitch, roll, yaw, brakes, etc.) & Push Buttons Modules
- - **Prototyping:** Breadboard, DuPont Jumper wires, and an improvised cardboard stabilizing bracket for hardware validation.
+ - **Microcontroller:** **Arduino Pro Micro** (ATmega32U4 chip) — Chosen for its native USB HID capabilities to act as a direct plug-and-play joystick.
+ - **Inputs:** **Linear Rotary Potentiometers** (Analog Axes for throttles, pitch, roll, yaw, brakes, etc.) & **Push Button Modules**
+ - **Prototyping:** **Breadboard**, **DuPont Jumper wires**, and an improvised cardboard stabilizing bracket for hardware validation.
 
 ---
 
 ##  Software & Connectivity 💻
 
-* **Language:** Arduino (C++) using the `joystick` library (by Matthew Hehr) to emulate a generic USB game controller.
-* **Connection:** Direct USB HID interface — no external network bridge or driver software required for desktop simulators.
+* **Language:** Arduino **(C++)** using the **`joystick`** library (by Matthew Hehr) to emulate a generic USB game controller.
+* **Connection:** **Direct USB HID interface** — no external network bridge or driver software required for desktop simulators.
 
 ---
 
