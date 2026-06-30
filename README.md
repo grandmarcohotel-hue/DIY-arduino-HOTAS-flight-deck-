@@ -24,7 +24,7 @@ By building this flight deck myself, I am able to:
 
  - [x] **Electronics Proof of Concept:** Wired up the Arduino Pro Micro, rotary potentiometers, and buttons on a temporary breadboard rig.
  - [x] **Prototype Firmware:** Wrote basic test code to verify the Arduino compiles hardware signals and reads pin states correctly.
- - [x] **Hardware Validation:** Completed initial prototype testing to ensure the basic wiring, test code, and sensor inputs work flawlessly. Successfully flight-tested and calibrated axes in **GeoFS** and **Infinite Flight** via Map Connectv2. 
+ - [x] **Hardware Validation:** Completed initial prototype testing to ensure the basic wiring, test code, and sensor inputs work flawlessly. Successfully flight-tested and calibrated axes in **GeoFS** and **Infinite Flight** via Map Connect v2. 
  - [ ] **System Design & Blueprinting:** Drafting the comprehensive mechanical concept for how the entire ecosystem (throttle quadrant, joystick mechanism, and rudder pedals) integrates together.
  - [ ] **Dimensions & Layout:** Finalizing physical measurements, clearances, and ergonomic spacing requirements.
  - [ ] **3D Modeling & CAD:** Designing structural housings, pivot linkages, and control surfaces in Onshape for future fabrication.
