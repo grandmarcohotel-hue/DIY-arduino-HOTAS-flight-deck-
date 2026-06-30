@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-red)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
 
-A customisable DIY flight deck designed for computers (exp.personal computers and laptops) that implements HOTAS (Hands-On-Throttle-And-Stick), rudder, etc., built with an Arduino Pro Micro, along with several rotary sensors and buttons. This flight deck aims to be compatible with ALL flight simulators that accept standard axes and button inputs from a typical USB HIB Game Controller.
+A customisable DIY flight deck designed for computers (exp. personal computers and laptops) that implements throttle quadrants, joysticks/yokes, rudder pedals, etc., built with an Arduino Pro Micro microcontroller, along with several rotary sensor and button modules. This flight deck aims to be compatible with ALL flight simulators that accept standard axes and button inputs from a typical USB HIB Game Controller.
 
 ##  Motivation: Why Build This? 💡
 
@@ -35,16 +35,17 @@ By building this flight deck myself, I am able to:
 The project currently uses the following hardware stack:
 
 **Microcontroller:**
-  * **Arduino Pro Micro (ATmega32U4 chip)(Pre-soldered)** — Chosen for its native USB HID capabilities to act as a direct plug-and-play joystick.
+  * **Arduino Pro Micro (ATmega32U4 chip)(Pre-soldered)(USB-micro/USB-C/etc.)** — Chosen for its native USB HID capabilities to act as a direct plug-and-play joystick. I currently use an arduino pro micro that uses **USB-C interface** which I highly recommend.   
 
 **Inputs:**
-  * **贝科姆 (Beckham) Rotation Sensor Modules** (3-pin) — Analog Axes for throttles, pitch, roll, yaw, brakes, etc.
-  * **贝科姆 (Beckham) Tactile Push Button Modules (KY-004)**(3-pin)
+  * **贝科姆 (Beckham) Rotation Sensor Modules(3-pin)** — Analog Axes for throttles, pitch, roll, yaw, brakes, etc.
+  * **贝科姆 (Beckham) Tactile Push Button Modules (KY-004)(3-pin)**
+  * **USB-A/USB-C to USB-micro/USB-C/... Data Cable** - depends which USB interface microcontroller/arduino and computer uses. I currently use a **USB-A to USB-C Data Cable**.
 
 **Prototyping:**
   * **Full-Size (830 Tie-Point/Hole) Solderless Breadboard**
   * **DuPont Jumper wires** **(M-M,M-F)**
-  * an improvised cardboard stabilizing bracket for hardware validation.
+  * Improvised cardboard stabilizing bracket for hardware validation.
 
 ---
 
