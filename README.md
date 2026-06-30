@@ -1,6 +1,6 @@
 # DIY Arduino HOTAS Flight Deck ✈️
 
-![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-orange)
+![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-red)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
 
 A customisable DIY flight deck designed for computers (exp.personal computers and laptops) that implements HOTAS (Hands-On-Throttle-And-Stick), rudder, etc., built with an Arduino Pro Micro, along with several rotary sensors and buttons. This flight deck aims to be compatible with ALL flight simulators that accept standard axes and button inputs from a typical USB HIB Game Controller.
