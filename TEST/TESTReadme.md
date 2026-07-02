@@ -73,7 +73,7 @@ Open the Arduino IDE app. You can use the fresh, empty "sketch" that pops up aut
 4. Under the **Ports** column, select your board's serial port (for example, `COM7 Serial Port (USB)`), and click **OK**.
 
 #### Step 4: Add the base code
-Copy the C++ program from your `test.ino` file and paste it directly into the empty Arduino IDE sketch page. We will modify this base code depending on exactly how many potentiometers (pots) and buttons you have hooked up to your breadboard.
+Copy the C++ program from the `test.ino` file and paste it directly into the empty Arduino IDE sketch page. We will modify this base code depending on exactly how many potentiometers (pots) and buttons you have hooked up to your breadboard.
 
 #### Step 5: Update the Joystick profile layout
 Look at the configuration block near the very top of the code where the joystick layout is initialized. 
