@@ -1,6 +1,6 @@
 # TEST 
 
-This is a step-by-step guide to the testing grounds. This setup will allow the testing of connections between an Arduino Pro Micro, a computer, multiple rotary potentiometers, and button modules.
+This is a step-by-step guide to the testing grounds. This setup will allow the testing of connections between an Arduino Pro Micro, a computer, along with multiple rotary potentiometer and button modules.
 
 > ⚠️ **Note:** This is only a test setup, not a finished product.
 
